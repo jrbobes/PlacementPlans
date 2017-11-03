@@ -13,16 +13,13 @@
     <padding>
         <Insets top="25" right="25" bottom="10" left="25"/>
     </padding>
-    <gridLinesVisible>true</gridLinesVisible>
 
-    <Text text="Welcome"
-          GridPane.columnIndex="0" GridPane.rowIndex="0"
-          GridPane.columnSpan="2"/>
 
     <Label text="User Name:"
            GridPane.columnIndex="0" GridPane.rowIndex="1"/>
 
     <TextField
+           fx:id="userNameField"
             GridPane.columnIndex="1" GridPane.rowIndex="1"/>
 
     <Label text="Password:"
